@@ -1,8 +1,14 @@
-import Image from "next/image";
-import NavbarComponent from "./components/navbar";
+// export default function Home() {
+  // throw new Error("Error in Home Page");
+//   return (
+//     <div>Home Page</div>
+//   );
+// }
 
-export default function Home() {
+const Home = () => {
   return (
-    <NavbarComponent/>
-  );
+    <div>Home Page</div>
+  )
 }
+
+export default Home

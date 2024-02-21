@@ -1,4 +1,4 @@
-const NavbarComponent = () => {
+const NavbarPage = () => {
     return (
         // Add Header/ Navbar for gocapje
         <nav className="gocapje-header" id="gocapje-header-container">
@@ -11,8 +11,8 @@ const NavbarComponent = () => {
             <div className="gocapje-navbar-list-menu" id="gocapje-list-menu">
                 <ul>
                 <li> <a href="/ ">Home</a> </li>
-                <li> <a href="#about">About</a> </li>
-                <li> <a href="#portofolio">Portofolio</a> </li>
+                <li> <a href="/about">About</a> </li>
+                <li> <a href="/contact">Contact</a> </li>
                 
                 </ul>
             </div>
@@ -20,4 +20,4 @@ const NavbarComponent = () => {
     );
 };
 
-export default NavbarComponent;
+export default NavbarPage
